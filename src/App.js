@@ -303,7 +303,7 @@ export default function App() {
   return (
     <div className="App">
       <div class="box">
-        <select name="cars" id="cars" onChange={handleChange}>
+        <select name="items"  onChange={handleChange}>
           {Object.keys(dataset).map((k) => (
             <option value={k}>{k}</option>
           ))}
