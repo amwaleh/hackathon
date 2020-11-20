@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.table_main {
+    border-top: 1px solid #d6d6d6 !important; 
+    /* border-right: 3px solid #d6d6d6 !important; */
+    margin-bottom:30px 
+}
+
+.table_main td {
+    background: rgb(247, 245, 245);
+    border-right: solid 1px #fff;
+    border-bottom: 1px solid #fff;
+    padding: 1px;
+    text-align: center;
+    width: 100px
+}
+
+.table_main caption {
+  display: flex;
+  font-weight: bold;
+  color: #333
+}
+
+.table_main th {
+  background: #c7dbee;
+  border-right: solid 1px #fff;
+  border-bottom: 1px solid #fff;
+  padding: 1px;
+  text-align: center;
+  width: 100px
+}
+
+.box {
+margin-bottom:23px;
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
